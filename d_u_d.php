@@ -1,6 +1,6 @@
 <?php
 
-include '../online_shop/dbConnect.php';
+include 'dbConnect.php';
 
 $stmt = $connection->prepare("SELECT * FROM products");
 $stmt->execute();

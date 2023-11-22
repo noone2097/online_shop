@@ -43,17 +43,18 @@ if (isset($_POST['saveData'])) {
 </head>
 <body>
 
-<form method="post">
-	<input type="text" name="productnameTF" placeholder="Product name"> <br> <br>
-	<textarea type="text" name="productDecriptionTF" placeholder="Product description" rows="5"></textarea> <br> <br>
-	<input type="number" name="originalPriceTF" placeholder="Original price"> <br> <br>
-    <input type="text" name="categoryTF" placeholder="Product category"> <br> <br>
-	<input type="number" name="productStockTF" placeholder="Product stock"> <br> <br>
-	<input type="text" name="supplierTF" placeholder="Product supplier"> <br> <br>
-	<input type="text" name="supplierContactNumberTF" placeholder="Supplier contact number"> <br> <br>
-	<input type="submit" name="saveData" value="SAVE">
-</form>
-
+	<center>
+		<form method="post">
+			<input type="text" name="productnameTF" placeholder="Product name"> <br> <br>
+			<textarea type="text" name="productDecriptionTF" placeholder="Product description" rows="5"></textarea> <br> <br>
+			<input type="number" name="originalPriceTF" placeholder="Original price"> <br> <br>
+		    <input type="text" name="categoryTF" placeholder="Product category"> <br> <br>
+			<input type="number" name="productStockTF" placeholder="Product stock"> <br> <br>
+			<input type="text" name="supplierTF" placeholder="Product supplier"> <br> <br>
+			<input type="text" name="supplierContactNumberTF" placeholder="Supplier contact number"> <br> <br>
+			<input type="submit" name="saveData" value="SAVE">
+		</form>
+	</center>
 
 </body>
 </html>
